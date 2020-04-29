@@ -1,0 +1,11 @@
+GWP Printing tool- readme.
+
+1. Set up the database and change the details in App/Config.php.
+2. Set up the public folder as the one accessed by the server
+3. Go to index.php and search for an user id(1-4). This will create the user_policy view
+4. Go into the capture.xlsx file. Open Data tab. At the end of the ribbon you should have Mysql for Excel. Start a connection, select the database then use the user_policy view to import the data. Save the file.
+5. Delete the user_policy view before starting to test
+
+
+      
+
